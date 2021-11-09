@@ -42,55 +42,44 @@
 </section>
 
 <section id="formulario">
-<form id="contato" action="" method="POST"></form>
+    <form id="contato" action="" method="POST">
 <h1>Solicitar Empréstimo</h1>
      <fieldset>
-         <input placeholder="Nome" type="text" tabindex="1" required autofocus>
+         <input placeholder="Nome" type="text" tabindex="1" required autofocus id="nome">
      </fieldset>
 
      <fieldset>
-            <input placeholder="sobrenome" type="text" tabindex="2" required>
+            <input placeholder="sobrenome" type="text" tabindex="2" required id="sobrenome">
       </fieldset>
 
       <fieldset>
-        <input placeholder="Seu e-mail" type="text" tabindex="3" required>
+        <input placeholder="Seu e-mail" type="text" tabindex="3" required id="email">
      </fieldset>
    
 
      <fieldset>
-        <input placeholder="Valor solicitado" type="text" tabindex="4" required>
+        <input placeholder="Valor solicitado" type="text" tabindex="4" required id="valor">
      </fieldset>
 
      <fieldset>
-        <input placeholder="Telefone com DDD (whatsApp)" type="text" tabindex="4" required>
+        <input placeholder="Telefone com DDD (whatsApp)" type="text" tabindex="4" required id="telefone">
      </fieldset>
 
     <div id="confirma">
-        <input type="checkbox" name="confirma" id="confrimaçao">
+        <input type="checkbox" name="confirma" id="confrimaçao" >
       <p> Ao selecionar esta caixa e enviar seus dados, você nos autoriza a te enviar e-mails e entrar em contato via app.</p>
     </div>
     
     <input type="submit" value="Enviar mensagem" id="enviar">
-
+</form>
+l
 </section>
 <footer>
    <p id="tex" > 2021/10 </p> raul victor 
     &reg;
 </footer>
 
-   <script> 
-  ( function(){
-
-   var data= new Date();
-
-   document.querySelector(tex).innerhtml "Data de hoje" + date
-   console.log(data)
-})()
-   
-
-</script>
-
-
+ <script src="javascript.js"></script>
 
     
 </body>

@@ -16,8 +16,9 @@ var enviar = document.getElementById ('enviar');
 function alerta(){
     
     if (nome.value === "" || sobrenome.value === ""|| email.value===""||valor.value===""||telefone.value===""){
-        alert ('preencha todododo');
+        alert ('preencha todos os campos');
     }
 }
-enviar.addEventListener('click', alerta);
+enviar.addEventListener('submit', alerta);
+
 
